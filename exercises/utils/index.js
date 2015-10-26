@@ -1,11 +1,7 @@
-var md = require('cli-md')
 var fs = require('fs')
 var fork = require('child_process').fork
 var path = require('path')
-
-exports.parse = function (fileName) {
-  return md(fs.readFileSync(fileName).toString())
-}
+var md = require('cli-md');
 
 exports.execTest = function (dir, failFiles, passFile, args, t) {
   

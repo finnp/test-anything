@@ -54,4 +54,3 @@ know, that you could also write it in one line:
 ```js
 t.throws(petDog.bind(null, 'dachhund'))
 ```
-
